@@ -9,9 +9,9 @@ import CV from './Pages/CV'
 import calendar from './Pages/calendar'
 
 
-class App extends Component {
+function App(){
 
-  render() {
+  
     return (
       <BrowserRouter>
         <Switch> 
@@ -25,6 +25,6 @@ class App extends Component {
   
     );
   }
-}
+
 
 export default App;
