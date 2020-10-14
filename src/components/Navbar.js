@@ -15,7 +15,7 @@ function Navbar(){
               <NavLink to="/welcome">Welcome</NavLink>
             </li>
             <li>
-              <NavLink to="/CV">CV</NavLink>
+              <NavLink to="/mybio">CV</NavLink>
             </li>
             <li>
               <NavLink to="/calendar">Calendar</NavLink>

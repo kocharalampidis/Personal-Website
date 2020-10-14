@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 // pages imports
 import welcome from './Pages/welcome'
-import CV from './Pages/CV'
+import mybio from './Pages/mybio'
 import calendar from './Pages/calendar'
 
 function App(){
@@ -22,7 +22,7 @@ function App(){
               <Switch> 
                 <Redirect from="/" to="/welcome" exact />
                 <Route path='/welcome' component={welcome}/>
-                <Route path='/cv' component={CV}/>
+                <Route path='/mybio' component={mybio}/>
                 <Route path='/calendar' component={calendar}/>
               </Switch>
           </BrowserRouter>  
