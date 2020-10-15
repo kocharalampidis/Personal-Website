@@ -3,7 +3,7 @@ import React from 'react';
 
 function mybio(){
     return(
-       <span>lorem</span>
+       <span>branch code</span>
     );
 }
 
