@@ -5,54 +5,56 @@ function mybio(){
     return(
     <Fragment>    
         
-        <div class="left"></div>
-        <div class="stuff">
+        <div class="main-container">
           
-          <h1>Resume</h1>
+          
           <h2>KCH</h2>
-          <hr />
+          <hr /> 
           
-          <p class="head">Interests</p>
-          <ul>
-            <li>Drawing</li>
-            <li>Photography</li>
-            <li>Design</li>
-            <li>Programming</li>
-            <li>Computer Science</li>
-          </ul>
-          <p class="head">Skills</p>
-          <ul>
-            <li>Web Design with HTML & CSS</li>
-          </ul>
           <p class="head">Education</p>
           <ul>
-            <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
-              <li>Wilton High School</li>
-            </a>
-            
-            <a href="https://www.silvermineart.org/">
-              <li>Silvermine School of Arts</li>
-            </a>
-            <li>Codeacademy</li>
-          </ul>
-          <p class="head">Experience</p>
+            <li>Computer Science Department
+               of the International Hellenic University,
+               Software Engineer</li>
+            </ul>
+          <p class="head">Skills</p>
           <ul>
-            <li>Student Technology Intern for Wilton School District</li>
-            <li>Babysitter</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>C++</li>
           </ul>
-          <p class="head">Extracurriculars</p>
+          <p class="head">Online Courses</p>
           <ul>
-            <li>Recycling Club</li>
-            <li>Gardening Club</li>
-            <li>Book Club</li>
+            <li>Introduction to TensorFlow
+               for Artificial Intelligence, Machine Learning,
+               and Deep Learning
+            </li>
+            <li>Java Programming Masterclass
+               for Software Developers
+            </li>
+            <li>
+              Practical Deep Learning with PyTorch
+            </li>
           </ul>
+          <p class="head">Work Experience</p>
+          <ul>
+            <li>
+              Electrician Assistant, Prokat Kavalas
+            </li>
+            <li>
+              Secretarial Support, Order and Warehouse Manager,
+              Nikolaos Manzouranis-Massage, Chiropractic and
+              Alternative Therapies
+            </li>
+            <li>
+              Shift Manager, Tsalapeteinos Urban Farm
+            </li>
+          </ul>
+          
         </div>
-        <div class="right"></div>
-        <div id="footer">
-       
-        </div>
-
-    </Fragment>
+    
+        </Fragment>
     );
 }
 

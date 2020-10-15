@@ -1,32 +1,7 @@
-
-  
-
-
-  
-  #title {
-    margin-left: 3%;
-  }
-  
-  .left {
-    height: 1000px;
-    width: 45px;
-    background-color: #e0eeee;
-    float: left;
-    position: fixed;
-  }
-  
-  .right {
-    height: 1000px;
-    width: 45px;
-    background-color: #e0eeee;
-    float: right;
-    position: inherit;
-  }
-  
-  .stuff {
+  .main-container {
     display: inline-block;
-    margin-top: 6px;
-    margin-left: 55px;
+    margin-top: 21px;
+    margin-left: px;
     width: 75%;
     height: 1000px;
   }
@@ -34,6 +9,7 @@
   p,
   li {
     font-family: 'Cormorant Garamond';
+
   }
   
   .head {
