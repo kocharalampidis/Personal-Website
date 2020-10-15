@@ -4,7 +4,8 @@ import '../components/css/mybio.css'
 function mybio(){
     return(
     <Fragment>    
-        
+
+      <section></section>  
         <div class="main-container">
           
           
