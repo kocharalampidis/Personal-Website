@@ -5,24 +5,37 @@ import './css/Navbar.css'
 
 function Navbar(){
     return(
-        <header className="main-navigation">
-        <div className="main-navigation__logo">
-          <h1>My Happy Place</h1>
-        </div>
-        <nav className="main-navigation__items">
-          <ul>
-            <li>
-              <NavLink to="/welcome">Welcome</NavLink>
-            </li>
-            <li>
-              <NavLink to="/mybio">CV</NavLink>
-            </li>
-            <li>
-              <NavLink to="/calendar">Calendar</NavLink>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <div>
+      <div className="font-bold py-3">
+          AppName
+      </div>
+      <ul>
+          <li>
+              <NavLink 
+                  to="/" 
+                  className="text-blue-500 py-3 border-t border-b block"
+              >
+                  Home
+              </NavLink>
+          </li>
+          <li>
+              <NavLink 
+                  to="/mybio" 
+                  className="text-blue-500 py-3 border-b block"
+              >
+                  CV
+              </NavLink>
+          </li>
+          <li>
+              <NavLink 
+                  to="/calendar" 
+                  className="text-blue-500 py-3 border-b block"
+              >
+                  CA
+              </NavLink>
+          </li>
+      </ul>
+  </div>
     
     );
         

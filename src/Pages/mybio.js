@@ -1,61 +1,67 @@
 import React, { Fragment } from 'react';
 import '../components/css/mybio.css'
+// http://localhost:3000/
+
+
 
 function mybio(){
-    return(
+    return (
     <Fragment>    
+        <body class="flex items-center justify-center">
+            <div class="container">
+                <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
+                    <thead class="text-white">
+                        <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                            <th class="p-3 text-left">Name</th>
+                            <th class="p-3 text-left">Email</th>
+                            <th class="p-3 text-left" width="110px">Actions</th>
+                        </tr>
+                        <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                            <th class="p-3 text-left">Name</th>
+                            <th class="p-3 text-left">Email</th>
+                            <th class="p-3 text-left" width="110px">Actions</th>
+                        </tr>
+                        <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                        <th class="p-3 text-left">Name</th>
+                        <th class="p-3 text-left">Email</th>
+                        <th class="p-3 text-left" width="110px">Actions</th>
+                    </tr>
+                        <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                        <th class="p-3 text-left">Name</th>
+                        <th class="p-3 text-left">Email</th>
+                        <th class="p-3 text-left" width="110px">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody class="flex-1 sm:flex-none">
+                        <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+                            <td class="border-grey-light border hover:bg-gray-100 p-3">John Covv</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">contato@johncovv.com</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
+                        </tr>
+                        <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+                            <td class="border-grey-light border hover:bg-gray-100 p-3">Michael Jackson</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">m_jackson@mail.com</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
+                        </tr>
+                        <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+                            <td class="border-grey-light border hover:bg-gray-100 p-3">Julia</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">julia@mail.com</td>
+                            <td class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
+                        </tr>
+                        <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+                        <td class="border-grey-light border hover:bg-gray-100 p-3">Martin Madrazo</td>
+                        <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">martin.madrazo@mail.com</td>
+                        <td class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
+                        </tr>
+                </tbody>
+                </table>
+            </div>
+        </body>
 
-      <section></section>  
-        <div class="main-container">
-          
-          
-          <h2>KCH</h2>
-          <hr /> 
-          
-          <p class="head">Education</p>
-          <ul>
-            <li>Computer Science Department
-               of the International Hellenic University,
-               Software Engineer</li>
-            </ul>
-          <p class="head">Skills</p>
-          <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Java</li>
-            <li>C++</li>
-          </ul>
-          <p class="head">Online Courses</p>
-          <ul>
-            <li>Introduction to TensorFlow
-               for Artificial Intelligence, Machine Learning,
-               and Deep Learning
-            </li>
-            <li>Java Programming Masterclass
-               for Software Developers
-            </li>
-            <li>
-              Practical Deep Learning with PyTorch
-            </li>
-          </ul>
-          <p class="head">Work Experience</p>
-          <ul>
-            <li>
-              Electrician Assistant, Prokat Kavalas
-            </li>
-            <li>
-              Secretarial Support, Order and Warehouse Manager,
-              Nikolaos Manzouranis-Massage, Chiropractic and
-              Alternative Therapies
-            </li>
-            <li>
-              Shift Manager, Tsalapeteinos Urban Farm
-            </li>
-          </ul>
-          
-        </div>
-    
-        </Fragment>
+        
+            
+    </Fragment>    
+        
     );
 }
 
