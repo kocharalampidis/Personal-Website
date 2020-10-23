@@ -1,61 +1,164 @@
-import React, { Fragment } from 'react';
+import React, {Fragment}     from 'react';
 import '../components/css/mybio.css'
+// http://localhost:3000/
+
+
 
 function mybio(){
-    return(
-    <Fragment>    
+    return (
+        <Fragment>    
+        <body class="flex items-center justify-center">
+              <div class="container">
+  
+  
+                  <table class="rounded-lg overflow-hidden shadow-lg max-w-sm sm:max-w-xl md:max-w-xl lg:max-w-xl xl:max-w-2xl my-5">
+                      <thead class="text-white">
+                          <tr class="bg-black">
+                                  <th class="p-3 text-left">Education</th>
+                                  <th class="p-3 text-left">Timeline</th>
+  
+                          </tr>
+                         </thead>
+                      <tbody class="">
+                          <tr class="">
+                                  <td class="border-green-600 border hover:bg-red-200 p-3  ">
+                                      Computer Science Department
+                                      of the International Hellenic Univrsity, Software Engineer 
+                                  </td>
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 "> 09/2013 - Σήμερα </td>
+  
+  
+                          </tr>
+                      </tbody>
+                  </table>
+  
+                  
+                  <table class="rounded-lg overflow-hidden shadow-lg max-w-sm sm:max-w-xl md:max-w-xl lg:max-w-xl xl:max-w-2xl my-5">
+                      <thead class="text-white">
+                          <tr class="bg-black">
+                                  <th class="p-3 text-left">Work Experience</th>
+                                  <th class="p-3 text-left">Timeline</th>
+                          </tr>
+                      </thead>
+                      <tbody class="">
+                          <tr class="">
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 ">
+                                     
+                                      Electrician Assistant, Prokat Kavalas 
+  
+                                  </td>
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 ">
+                                      
+                                      03/2014 - 10/2014
+  
+                                  </td>
+                          </tr>
+                          <tr class="">
+                                  <td class="border-green-600  border hover:bg-red-200 p-3 ">
+                                      
+                                      Order and Warehouse Manager, Nikolaos Manzouranis-Massage Chiropractic and Alternative Therapies
+  
+                                  </td>
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 ">
+                                      11/2014 - 11/2015
+                                   </td>
+                          </tr>
+                          <tr class="">
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 ">
+                                      
+                                      Shift Manager, Tsalapeteinos Urban Farm
+  
+                                  </td>
+                                  <td class="border-green-600 border hover:bg-red-200 p-3 ">
+                                      12/2015 - 07/2017
+                                  </td>
+  
+                          </tr>
+                      </tbody>
+                  </table>
+              
+              </div>
+          </body>
+              
+      </Fragment>      
         
-        <div class="main-container">
-          
-          
-          <h2>KCH</h2>
-          <hr /> 
-          
-          <p class="head">Education</p>
-          <ul>
-            <li>Computer Science Department
-               of the International Hellenic University,
-               Software Engineer</li>
-            </ul>
-          <p class="head">Skills</p>
-          <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Java</li>
-            <li>C++</li>
-          </ul>
-          <p class="head">Online Courses</p>
-          <ul>
-            <li>Introduction to TensorFlow
-               for Artificial Intelligence, Machine Learning,
-               and Deep Learning
-            </li>
-            <li>Java Programming Masterclass
-               for Software Developers
-            </li>
-            <li>
-              Practical Deep Learning with PyTorch
-            </li>
-          </ul>
-          <p class="head">Work Experience</p>
-          <ul>
-            <li>
-              Electrician Assistant, Prokat Kavalas
-            </li>
-            <li>
-              Secretarial Support, Order and Warehouse Manager,
-              Nikolaos Manzouranis-Massage, Chiropractic and
-              Alternative Therapies
-            </li>
-            <li>
-              Shift Manager, Tsalapeteinos Urban Farm
-            </li>
-          </ul>
-          
-        </div>
-    
-        </Fragment>
     );
 }
 
 export default mybio;
+
+
+
+
+{/* 
+
+
+
+ <body class="flex items-center justify-center">
+            <div class="container">
+                <table class="rounded-lg overflow-hidden max-w-sm sm:max-w-xl md:max-w-xl lg:max-w-5xl xl:max-w-5xl my-5">
+                    <thead class="text-white">
+                        <tr class="bg-black">
+                                <th class="p-3 text-left">Education</th>
+                                <th class="p-3 text-left">Timeline</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr class="">
+                                <td class="border-grey-light border hover:bg-gray-100 p-3  ">
+                                    Computer Science Department of the International Hersity, Software Engineer
+                                </td>
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 "> 09/2013 - Σήμερα </td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <table class="rounded-lg overflow-hidden max-w-sm sm:max-w-xl md:max-w-xl lg:max-w-5xl xl:max-w-5xl my-5">
+                    <thead class="text-white">
+                        <tr class="bg-black">
+                                <th class="p-3 text-left">Work experience</th>
+                                <th class="p-3 text-left">Timeline</th>
+
+                        </tr>
+                       </thead>
+                    <tbody class="">
+                        <tr class="">
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                    Electrician Assistant, Prokat Kavalas 
+                                </td>
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                03/2014 - 10/2014
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                Order and Warehouse Manager, Nikolaos Manzouranis-Massage Chiropractic and Alternative Therapies 
+                                </td>
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                11/2014 - 11/2015 
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                Shift Manager, Tsalapeteinos Urban Farm 
+                                </td>
+                                <td class="border-grey-light border hover:bg-gray-100 p-3 ">
+                                    12/2015 - 07/2017
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+            </div>
+        </body>
+
+
+
+
+
+
+
+*/}

@@ -1,40 +1,37 @@
-  .main-container {
-    display: inline-block;
-    margin-top: 21px;
-    margin-left: px;
-    width: 75%;
-    height: 1000px;
-  }
-  
-  p,
-  li {
-    font-family: 'Cormorant Garamond';
+html,
+body {
+	height: 100%;
+}
 
-  }
-  
-  .head {
-    font-size: 20px;
-  }
-  
-  #name {
-    font-family: Sacramento;
-    float: right;
-    margin-top: 10px;
-    margin-right: 4%;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  @media only screen and (max-width: 430px) {
-    .left,
-    .right {
-      display: none;
-    }
-    .stuff {
-      width: 100%;
-      margin-left: 10px;
-    }
-  }
+@media (min-width: 640px) {
+	table {
+		display: inline-table !important;
+	}
+
+	thead tr:not(:first-child) {
+		display: none;
+	}
+}
+
+/* html,
+body {
+	height: 100%;
+}
+
+@media (min-width: 640px) {
+	table {
+		display: inline-table !important;
+	}
+
+	thead tr:not(:first-child) {
+		display: none;
+	}
+}
+
+td:not(:last-child) {
+	border-bottom: 0;
+}
+
+th:not(:last-child) {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+} */

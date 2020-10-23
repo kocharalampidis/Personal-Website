@@ -1,5 +1,5 @@
 // libraries imports
-import React from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 // components/css import
@@ -16,18 +16,20 @@ function App(){
 
   
     return (
-      <main>
-          <BrowserRouter>
-            <Navbar/>
-              <Switch> 
-                <Redirect from="/" to="/welcome" exact />
-                <Route path='/welcome' component={welcome}/>
-                <Route path='/mybio' component={mybio}/>
-                <Route path='/calendar' component={calendar}/>
-              </Switch>
+      <Fragment class="flex flex-col min-h-screen">
+        <main class="flex-grow">
+            <BrowserRouter>
+              <Navbar/>
+                <Switch> 
+                  <Redirect from="/" to="/welcome" exact />
+                  <Route path='/welcome' component={welcome}/>
+                  <Route path='/mybio' component={mybio}/>
+                  <Route path='/calendar' component={calendar}/>
+                </Switch>
           </BrowserRouter>  
-        <Footer/>
-      </main>  
+        </main>
+        
+      </Fragment>
     );
   }
 
