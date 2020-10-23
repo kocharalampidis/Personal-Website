@@ -1,9 +1,8 @@
 // libraries imports
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 // components/css import
-import './components/css/App.css';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -12,26 +11,30 @@ import welcome from './Pages/welcome'
 import mybio from './Pages/mybio'
 import calendar from './Pages/calendar'
 
-function App(){
+
+function App() {
 
   
-    return (
-      <Fragment class="flex flex-col min-h-screen">
-        <main class="flex-grow">
-            <BrowserRouter>
-              <Navbar/>
-                <Switch> 
-                  <Redirect from="/" to="/welcome" exact />
-                  <Route path='/welcome' component={welcome}/>
-                  <Route path='/mybio' component={mybio}/>
-                  <Route path='/calendar' component={calendar}/>
-                </Switch>
-          </BrowserRouter>  
-        </main>
-        
-      </Fragment>
+  return (
+   
+    <div class="relative pb-10 min-h-screen ">
+      <BrowserRouter>
+      <Navbar/>
+          <div className="p-3">
+            <Switch> 
+              <Redirect from="/" to="/welcome" exact />
+              <Route path='/welcome' component={welcome}/>
+              <Route path='/mybio' component={mybio}/>
+              <Route path='/calendar' component={calendar}/>
+            </Switch>
+          </div>
+        <Footer/>
+        </BrowserRouter>  
+      </div>
     );
   }
 
 
 export default App;
+
+//  <div className="relative pb-10 min-h-screen">
