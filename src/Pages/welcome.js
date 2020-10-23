@@ -6,7 +6,8 @@ import '../components/css/mybio.css'
 function welcome(){
     return (
 
-        <h1> Welcome Page </h1>
+        <h1> Welcome Page asd asdasd
+        as</h1>
     );
 }
 
