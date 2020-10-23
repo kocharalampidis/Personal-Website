@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -8,33 +8,32 @@ function Navigation(){
         <div class="hidden sm:block sm:ml-6">
             <ul  class="list-reset md:flex sm:flex">
                 <li class="mr-6">
-                    <NavLink 
+                    <Link 
                         to="/" 
-                        class =""
+                        class ="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                     >
                         Home
-                    </NavLink>
+                    </Link>
                 </li>
                 <li class="mr-6">
-                    <NavLink 
+                    <Link 
                         to="/mybio" 
-                        class =""
+                        class ="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                     >
                         CV
-                    </NavLink>
+                    </Link>
                 </li>
                 <li class="mr-6">
-                    <NavLink 
+                    <Link 
                         to="/calendar" 
-                        class=""
+                        class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                     >
                         Calendar
-                    </NavLink>
+                    </Link>
                 </li>
             </ul>
         </div>
     );
         
 }
-
 export default Navigation;

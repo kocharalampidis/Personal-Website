@@ -35,32 +35,3 @@ function Navbar(){
 }
 
 export default Navbar;
-
-{/* <div>
-<ul  class="flex">
-    <li class="mr-6">
-        <NavLink 
-            to="/" 
-            class ="text-blue-500 hover:text-blue-800"
-        >
-            Home
-        </NavLink>
-    </li>
-    <li class="mr-6">
-        <NavLink 
-            to="/mybio" 
-            class ="text-blue-500 hover:text-blue-800"
-        >
-            CV
-        </NavLink>
-    </li>
-    <li class="mr-6">
-        <NavLink 
-            to="/calendar" 
-            class="text-gray-400 cursor-not-allowed"
-        >
-            Calendar
-        </NavLink>
-    </li>
-</ul>
-</div> */}
