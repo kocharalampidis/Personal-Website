@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Navigation(){
     return(
-        <div class="hidden sm:block sm:ml-6">
+        <div class="">
             <ul  class="list-reset md:flex sm:flex">
                 <li class="mr-6">
                     <Link 
