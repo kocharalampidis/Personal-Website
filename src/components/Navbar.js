@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faWindowClose } from '@fortawesome/free-solid-svg-icons'
 import Navigation from './Navigation'
 
-export default function Navbar() {
+function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
@@ -18,7 +18,7 @@ export default function Navbar() {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <FontAwesomeIcon  icon={faBars} />
+              {(navbarOpen ? <FontAwesomeIcon icon={faWindowClose}/> : <FontAwesomeIcon icon={faBars}/>)}
             </button>
           </div>
           <div
@@ -35,7 +35,7 @@ export default function Navbar() {
   );
 }
 
-
+export default Navbar;
 
 {/* <nav class="bg-gray-800">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
