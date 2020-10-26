@@ -17,10 +17,10 @@ function App() {
   
   return (
    
-    <div class="relative pb-10 min-h-screen ">
+    <div class="relative pb-10 border min-h-screen bg-red-900">
       <BrowserRouter>
       <Navbar/>
-          <div className="p-3">
+          <div>
             <Switch> 
               <Redirect from="/" to="/welcome" exact />
               <Route path='/welcome' component={welcome}/>
