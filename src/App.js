@@ -7,9 +7,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // pages imports
-import welcome from "./Pages/welcome";
-import mybio from "./Pages/mybio";
-import calendar from "./Pages/calendar";
+import Welcome from "./Pages/Welcome";
+import Mybio from "./Pages/Mybio";
+import Calendar from "./Pages/Calendar";
 
 function App() {
 	return (
@@ -18,12 +18,13 @@ function App() {
 				<Navbar />
 				<div>
 					<Switch>
-						<Redirect from='/' to='/welcome' exact />
-						<Route path='/welcome' component={welcome} />
-						<Route path='/mybio' component={mybio} />
-						<Route path='/calendar' component={calendar} />
+						<Redirect from='/' to='/Welcome' exact />
+						<Route path='/Welcome' component={Welcome} />
+						<Route path='/Mybio' component={Mybio} />
+						<Route path='/Calendar' component={Calendar} />
 					</Switch>
 				</div>
+				<Welcome />
 				<Footer />
 			</BrowserRouter>
 		</div>
