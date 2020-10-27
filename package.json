@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kocharalampidis.github.io/my-app/welcome",
+  "homepage": "http://kocharalampidis.github.io/my-app/",
   "name": "learning-react",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^4.0.0",
     "tailwindcss": "^1.9.3"
   },
   "scripts": {
