@@ -13,7 +13,7 @@ import calendar from "./Pages/calendar";
 
 function App() {
 	return (
-		<div class='relative pb-10 border min-h-screen bg-red-900'>
+		<div class='relative pb-10 min-h-screen bg-red-900 '>
 			<BrowserRouter>
 				<Navbar />
 				<div>
