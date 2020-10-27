@@ -24,7 +24,7 @@ function App() {
 						<Route path='/Calendar' component={Calendar} />
 					</Switch>
 				</div>
-				<Welcome />
+
 				<Footer />
 			</BrowserRouter>
 		</div>
