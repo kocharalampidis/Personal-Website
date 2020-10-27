@@ -1,7 +1,7 @@
 import React from "react";
 
 const h2String = " Welcome To My WorkStation";
-const h3String = " The Place Where I implement High-End Technologies";
+const h3String = " The Place Where I Implement High-End Technologies";
 
 const quote = (
 	<a
@@ -13,7 +13,7 @@ const quote = (
 	</a>
 );
 
-function welcome() {
+function Welcome() {
 	return (
 		<>
 			<div class='mt-12 py-10 '>
@@ -31,7 +31,7 @@ function welcome() {
 	);
 }
 
-export default welcome;
+export default Welcome;
 
 {
 	/* <a target="_blank" href="https://www.investopedia.com/terms/k/kaizen.asp">

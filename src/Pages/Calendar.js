@@ -7,7 +7,7 @@ import {
 	faTools,
 } from "@fortawesome/free-solid-svg-icons";
 
-function caldendar() {
+function Caldendar() {
 	return (
 		<div>
 			<div class='mt-12 text-center flex items-center justify-center'>
@@ -23,4 +23,4 @@ function caldendar() {
 	);
 }
 
-export default caldendar;
+export default Caldendar;

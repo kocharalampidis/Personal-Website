@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "../components/css/mybio.css";
 // http://localhost:3000/
 
-function mybio() {
+function Mybio() {
 	return (
 		<Fragment>
 			<body class='text-center flex items-center justify-center'>
@@ -69,4 +69,4 @@ function mybio() {
 	);
 }
 
-export default mybio;
+export default Mybio;
