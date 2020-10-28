@@ -14,7 +14,7 @@ function Mybio() {
 								<th class='p-3 text-left'>Timeline</th>
 							</tr>
 						</thead>
-						<tbody class=''>
+						<tbody class='bg-gray-100'>
 							<tr class=''>
 								<td class='border-green-600 border hover:bg-red-200 p-3  '>
 									Computer Science Department of the International Hellenic
@@ -35,7 +35,7 @@ function Mybio() {
 								<th class='p-3 text-left'>Timeline</th>
 							</tr>
 						</thead>
-						<tbody class=''>
+						<tbody class='bg-gray-100'>
 							<tr class=''>
 								<td class='border-green-600 border hover:bg-red-200 p-3 '>
 									Electrician Assistant, Prokat Kavalas

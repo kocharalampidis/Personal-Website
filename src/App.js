@@ -10,10 +10,11 @@ import Footer from "./components/Footer";
 import Welcome from "./Pages/Welcome";
 import Mybio from "./Pages/Mybio";
 import Calendar from "./Pages/Calendar";
+import Projects from "./Pages/Projects";
 
 function App() {
 	return (
-		<div class='relative pb-10 min-h-screen bg-red-900 '>
+		<div class='relative pb-10 min-h-screen bg-red-400  bg-opacity-75'>
 			<BrowserRouter>
 				<Navbar />
 				<div>
@@ -21,6 +22,7 @@ function App() {
 						<Redirect from='/' to='/Welcome' exact />
 						<Route path='/Welcome' component={Welcome} />
 						<Route path='/Mybio' component={Mybio} />
+						<Route path='/Projects' component={Projects} />
 						<Route path='/Calendar' component={Calendar} />
 					</Switch>
 				</div>
