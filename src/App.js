@@ -14,10 +14,10 @@ import Contact from "./Pages/Contact";
 
 function App() {
 	return (
-		<div class='relative pb-10 min-h-screen bg-red-400  bg-opacity-75'>
+		<div class=' relative pb-10 min-h-screen bg-red-400  bg-opacity-75'>
 			<BrowserRouter>
 				<Navbar />
-				<div>
+				<div class='mt-10'>
 					<Switch>
 						<Redirect from='/' to='/Welcome' exact />
 						<Route path='/Welcome' component={Welcome} />
