@@ -4,7 +4,7 @@ function Contact() {
 	return (
 		<body class='overflow-hidden flex items-center justify-center mx-2'>
 			<form class='w-full max-w-lg'>
-				<div class='flex flex-wrap mx-3 mb-6'>
+				<div class='flex flex-wrap mx-3 mb-6 '>
 					<div class='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
 						<label
 							class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
@@ -16,9 +16,6 @@ function Contact() {
 							id='grid-first-name'
 							type='text'
 							placeholder='Jane'></input>
-						<p class='text-red-500 text-xs italic'>
-							Please fill out this field.
-						</p>
 					</div>
 					<div class='w-full md:w-1/2 px-3'>
 						<label
@@ -32,21 +29,20 @@ function Contact() {
 							type='text'
 							placeholder='Doe'></input>
 					</div>
-
-					<div class='w-full px-3'>
-						<label
-							class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
-							for='grid-password'>
-							E-mail
-						</label>
-						<input
-							class='appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-							id='email'
-							type='email'></input>
-						<p class='text-gray-600 text-xs italic'>
-							Some tips - as long as needed
-						</p>
-					</div>
+				</div>
+				<div class='w-full px-3'>
+					<label
+						class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
+						for='grid-password'>
+						E-mail
+					</label>
+					<input
+						class='appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+						id='email'
+						type='email'></input>
+					<p class='text-gray-600 text-xs italic'>
+						Some tips - as long as needed
+					</p>
 				</div>
 
 				<div class='flex flex-wrap -mx-3 mb-6'>
