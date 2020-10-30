@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Welcome from "./Pages/Welcome";
 import Mybio from "./Pages/Mybio";
 import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 						<Route path='/Welcome' component={Welcome} />
 						<Route path='/Mybio' component={Mybio} />
 						<Route path='/Projects' component={Projects} />
+						<Route path='/Contact' component={Contact} />
 					</Switch>
 				</div>
 
