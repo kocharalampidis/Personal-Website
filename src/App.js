@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 // pages imports
 import Welcome from "./Pages/Welcome";
 import Mybio from "./Pages/Mybio";
-import Calendar from "./Pages/Calendar";
 import Projects from "./Pages/Projects";
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
 						<Route path='/Welcome' component={Welcome} />
 						<Route path='/Mybio' component={Mybio} />
 						<Route path='/Projects' component={Projects} />
-						<Route path='/Calendar' component={Calendar} />
 					</Switch>
 				</div>
 
