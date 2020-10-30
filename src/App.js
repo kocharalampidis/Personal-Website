@@ -34,5 +34,3 @@ function App() {
 }
 
 export default App;
-
-//  <div className="relative pb-10 min-h-screen">
