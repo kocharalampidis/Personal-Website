@@ -11,6 +11,7 @@ import Welcome from "./Pages/Welcome";
 import Mybio from "./Pages/Mybio";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
+import Profile from "./Pages/Profile";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 						<Route path='/Mybio' component={Mybio} />
 						<Route path='/Projects' component={Projects} />
 						<Route path='/Contact' component={Contact} />
+						<Route path='/Profile' component={Profile} />
 					</Switch>
 				</div>
 
