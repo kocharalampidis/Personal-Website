@@ -15,7 +15,7 @@ import Profile from "./Pages/Profile";
 
 function App() {
 	return (
-		<div class=' relative pb-10 min-h-screen bg-red-400  bg-opacity-75'>
+		<div class=' relative pb-10 min-h-screen bg-black  bg-opacity-50'>
 			<BrowserRouter>
 				<Navbar />
 				<div class='mt-10'>
