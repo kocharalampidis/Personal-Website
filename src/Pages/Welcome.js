@@ -1,7 +1,7 @@
 import React from "react";
 
 const h2String = " Welcome To My WorkStation";
-const h3String = " The Place Where I Implement High-End Technologies";
+const h3String = " The Place Where I Integrate High-End Technologies";
 
 const quote = (
 	<a
