@@ -3,15 +3,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import Lbp from "../components/Project_Content/Lbp";
 import Predictive_Maintenance from "../components/Project_Content/Predictive_Maintenance";
+import Upcoming_Projects from "../components/Project_Content/Upcoming_Projects";
 
 function Projects() {
 	return (
 		<>
-			<h1 class=''>
+			<div class='flex items-center justify-center font-medium text-4xl px-2'>
 				Theses Are The Projects that I have completed over the Years
-			</h1>
+			</div>
 			<Lbp />
 			<Predictive_Maintenance />
+
+			<div class='flex items-center justify-center font-medium text-4xl px-2'>
+				Upcoming Projects
+			</div>
+			<Upcoming_Projects />
 		</>
 	);
 }
