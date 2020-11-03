@@ -2,6 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
+var description =
+	"A strategy to perform maintenance based on the estimated health of the piece of equipment, by collecting data from specific sensors.\
+	 Through Predictive maintenance, a manufacturer can reduce the cost of maintenance activities, and avoid challenging damages\
+	  by being intelligently proactive and performing maintenance at the right time. In this project i performed Predictive Maintenanace\
+	  on an acquired dataset from  NASA";
+
 function Predictive_Maintenanace() {
 	return (
 		<>
@@ -12,19 +18,18 @@ function Predictive_Maintenanace() {
 						<h2 class='text-xl text-gray-800 font-medium mr-auto'>
 							Predictive Maintenanace
 						</h2>
+						<p class='text-gray-600 text-sm  tracking-tighter'>
+							Python - Machine Learning
+						</p>
 					</div>
-					<p class='text-sm text-gray-700 mt-4'>
-						Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam
-						reiciendis numquam tempore commodi ipsa suscipit laboriosam, sit
-						earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis
-						numquam tempore commodi ipsa suscipit laboriosam, sit earum at
-						sequi.
-					</p>
-					<div class='flex items-center justify-end mt-4 top-auto'>
+					<div>
+						<p class='text-sm text-gray-700 mt-4'>{description}</p>
+					</div>
+					<div class=' flex items-center justify-end mt-8 '>
 						<button class=' bg-blue-600 text-gray-200 px-2 py-2 rounded-md'>
 							<a
 								class=''
-								href='https://github.com/kocharalampidis/LBP'
+								href='https://github.com/kocharalampidis/Predictive_Maintenanace'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<span>Follow it on Github </span>

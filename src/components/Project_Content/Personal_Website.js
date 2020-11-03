@@ -2,6 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
+var description =
+	"This is my personal website, i am using it as my online portfolio.";
+
 function Personal_Website() {
 	return (
 		<>
@@ -12,15 +15,14 @@ function Personal_Website() {
 						<h2 class='text-xl text-gray-800 font-medium mr-auto'>
 							Personal Website
 						</h2>
+						<p class='text-gray-600 text-sm  tracking-tighter'>
+							React.js - Npm
+						</p>
 					</div>
-					<p class='text-sm text-gray-700 mt-4'>
-						Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam
-						reiciendis numquam tempore commodi ipsa suscipit laboriosam, sit
-						earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis
-						numquam tempore commodi ipsa suscipit laboriosam, sit earum at
-						sequi.
-					</p>
-					<div class='flex items-center justify-end mt-4 top-auto'>
+					<div>
+						<p class='text-sm text-gray-700 mt-4'>{description}</p>
+					</div>
+					<div class=' flex items-center justify-end mt-8 '>
 						<button class=' bg-blue-600 text-gray-200 px-2 py-2 rounded-md'>
 							<a
 								class=''
