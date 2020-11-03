@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
-function Predictive_Maintenanace() {
+function Web_Crawler() {
 	return (
 		<>
 			<div class='bg-black bg-opacity-75 md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64 rounded'>
@@ -10,7 +10,7 @@ function Predictive_Maintenanace() {
 				<div class='my-2 w-full md:w-2/3  px-4 py-4 bg-white rounded-lg'>
 					<div class='flex items-center'>
 						<h2 class='text-xl text-gray-800 font-medium mr-auto'>
-							Predictive Maintenanace
+							Web Crawler
 						</h2>
 					</div>
 					<p class='text-sm text-gray-700 mt-4'>
@@ -24,7 +24,7 @@ function Predictive_Maintenanace() {
 						<button class=' bg-blue-600 text-gray-200 px-2 py-2 rounded-md'>
 							<a
 								class=''
-								href='https://github.com/kocharalampidis/LBP'
+								href='https://github.com/kocharalampidis/Web-Crawler'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<span>Follow it on Github </span>
@@ -38,7 +38,7 @@ function Predictive_Maintenanace() {
 	);
 }
 
-export default Predictive_Maintenanace;
+export default Web_Crawler;
 
 {
 	/*<div class='md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64'>
