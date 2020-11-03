@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import Lbp from "../components/Project_Content/Lbp";
 import Predictive_Maintenance from "../components/Project_Content/Predictive_Maintenance";
 import Upcoming_Projects from "../components/Project_Content/Upcoming_Projects";
