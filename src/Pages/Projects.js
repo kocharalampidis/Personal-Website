@@ -8,17 +8,20 @@ import Personal_Website from "../components/Project_Content/Personal_Website";
 function Projects() {
 	return (
 		<>
-			<div class='flex items-center justify-center font-medium text-4xl px-2'>
-				Theses Are The Projects that I have completed over the Years
+			<div class='max-w-screen-xl mx-auto px-4 mt-16 '>
+				<div class='-mx-4 flex flex-wrap'>
+					<Predictive_Maintenance />
+
+					<Web_Scraping />
+
+					<Lbp />
+
+					<Personal_Website />
+				</div>
 			</div>
 
-			<Personal_Website />
-			<Lbp />
-			<Predictive_Maintenance />
-			<Web_Scraping />
-
 			<div class='flex items-center justify-center font-medium text-4xl px-2'>
-				Upcoming Projects
+				{"Upcoming Projects"}
 			</div>
 			<Upcoming_Projects />
 		</>

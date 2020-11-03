@@ -11,7 +11,35 @@ const description =
 function Web_Scraping() {
 	return (
 		<>
-			<div class='bg-black bg-opacity-75 md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64 rounded'>
+			<div class='w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3'>
+				<div class='flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg'>
+					<div class='flex-1'>
+						<h2 class='text-gray-900 text-2xl font-bold leading-snug'>
+							{"Web Scraping"}
+						</h2>
+						<p class='text-gray-600 text-sm  tracking-tighter'>
+							{"Python - Beautiful Soup"}
+						</p>
+						<p class='mt-2 text-lg'>{description}</p>
+					</div>
+					<a
+						href='https://github.com/kocharalampidis/Web-Scraping'
+						target='_blank'
+						rel='noopener noreferrer'
+						class='mt-6 inline-flex items-center px-6 py-3 text-white font-semibold bg-blue-700 rounded-md shadow-sm'>
+						<span>Follow it on Github </span>
+						<FontAwesomeIcon icon={faExternalLinkAlt} />
+					</a>
+				</div>
+			</div>
+		</>
+	);
+}
+
+export default Web_Scraping;
+
+{
+	/* <div class='bg-black bg-opacity-75 md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64 rounded'>
 				<span>img</span>
 				<div class='my-2 w-full md:w-2/3  px-4 py-4 bg-white rounded-lg'>
 					<div class='flex items-center'>
@@ -36,9 +64,5 @@ function Web_Scraping() {
 						</button>
 					</div>
 				</div>
-			</div>
-		</>
-	);
+			</div> */
 }
-
-export default Web_Scraping;
