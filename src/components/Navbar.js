@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faWindowClose } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faWindowMinimize } from "@fortawesome/free-regular-svg-icons";
+
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
 
@@ -17,11 +19,12 @@ function Navbar() {
 							Logo PH
 						</Link>
 						<button
-							class='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+							class=' hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out
+							text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
 							type='button'
 							onClick={() => setNavbarOpen(!navbarOpen)}>
 							{navbarOpen ? (
-								<FontAwesomeIcon icon={faWindowClose} />
+								<FontAwesomeIcon icon={faWindowMinimize} />
 							) : (
 								<FontAwesomeIcon icon={faBars} />
 							)}

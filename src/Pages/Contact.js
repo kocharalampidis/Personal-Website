@@ -64,7 +64,7 @@ function Contact() {
 				<div class='md:flex md:items-center'>
 					<div class='md:w-1/3'>
 						<button
-							class='shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded'
+							class='shadow bg-blue-700 hover:bg-blue-900 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded'
 							type='button'>
 							Send
 						</button>
