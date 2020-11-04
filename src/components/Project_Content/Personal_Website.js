@@ -12,9 +12,11 @@ function Personal_Website() {
 				<div class='flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg'>
 					<div class='flex-1'>
 						<h2 class='text-gray-900 text-2xl font-bold leading-snug'>
-							Personal Website
+							{"Personal Website"}
 						</h2>
-
+						<p class='text-gray-600 text-sm  tracking-tighter'>
+							{"React, Javascript Library"}
+						</p>
 						<p class='mt-2 text-lg'>{description}</p>
 					</div>
 					<a
