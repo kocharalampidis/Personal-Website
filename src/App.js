@@ -12,6 +12,7 @@ import Mybio from "./Pages/Mybio";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
+import Certificates from "./Pages/Certificates";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 						<Route path='/Projects' component={Projects} />
 						<Route path='/Contact' component={Contact} />
 						<Route path='/Profile' component={Profile} />
+						<Route path='/Certificates' component={Certificates} />
 					</Switch>
 				</div>
 
