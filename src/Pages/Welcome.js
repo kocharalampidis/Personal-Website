@@ -32,9 +32,3 @@ function Welcome() {
 }
 
 export default Welcome;
-
-{
-	/* <a target="_blank" href="https://www.investopedia.com/terms/k/kaizen.asp">
-                          -Always Be A Kaizen-
-                    </a> */
-}
