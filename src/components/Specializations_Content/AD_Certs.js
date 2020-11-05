@@ -13,7 +13,7 @@ function AD_Certs() {
 	return (
 		<>
 			<div class=' text-white  ml-6 '>
-				<Link to='/Specialization' class=' focus:bg-blue-700'>
+				<Link to='/Specializations' class=' focus:bg-blue-700'>
 					<FontAwesomeIcon
 						icon={faArrowLeft}
 						color='rgb( 3, 47, 94 )'
