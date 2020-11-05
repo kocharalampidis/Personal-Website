@@ -10,10 +10,8 @@ function Mybio() {
 				<div class='grid max-w-sm sm:max-w-xl md:max-w-xl lg:max-w-xl xl:max-w-2xl '>
 					<table class='space-y-6 rounded-lg overflow-hidden my-5'>
 						<Education />
-						<div class='flex-no-wrap'></div>
+						<br></br>
 						<Work_Experience />
-						<div class='flex-no-wrap'></div>
-						<Skills />
 					</table>
 				</div>
 			</body>

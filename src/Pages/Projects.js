@@ -20,7 +20,7 @@ function Projects() {
 				</div>
 			</div>
 
-			<div class='flex items-center justify-center font-medium text-4xl px-2'>
+			<div class='mt-16 flex items-center justify-center font-medium text-4xl px-2'>
 				{"Upcoming Projects"}
 			</div>
 			<Upcoming_Projects />

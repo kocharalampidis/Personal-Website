@@ -23,7 +23,7 @@ function Predictive_Maintenanace() {
 						<p class='mt-2 text-lg'>{description}</p>
 					</div>
 					<a
-						href='https://github.com/kocharalampidis/Predictive_Maintenanace'
+						href='https://github.com/kocharalampidis/Predictive_Maintenance/tree/Four_Model_Solution'
 						target='_blank'
 						rel='noopener noreferrer'
 						class='mt-6 inline-flex items-center px-6 py-3 text-white font-semibold bg-blue-700 rounded-md shadow-sm'>
