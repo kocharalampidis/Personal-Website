@@ -10,8 +10,10 @@ function Applied_Data_Science_Sp() {
 					<img class='' src={AD_SP} alt='logo' />
 					<div class='flex flex-col p-4'>
 						<p class='text-lg'>{"Specialization aquired from Coursera"}</p>
-						<p class='text-gray-600'>{"Consisting of 4 more coursers"}</p>
-						<Link to='/AD_Certs' class='self-end mt-4'>
+						<p class='text-gray-600'>{"Consisting of four coursers"}</p>
+						<Link
+							to='/AD_Certs'
+							class='hover:bg-blue-900 py-1 px-1 bg-blue-800 text-white rounded-md self-end mt-4'>
 							{"Show Certifications..."}
 						</Link>
 					</div>
@@ -22,9 +24,3 @@ function Applied_Data_Science_Sp() {
 }
 
 export default Applied_Data_Science_Sp;
-
-{
-	/* <h1>2</h1>
-			<img src={DL_SP} alt='logo' />;
-			<img src={AD_SP} alt='logo' />; */
-}

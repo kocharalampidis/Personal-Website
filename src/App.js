@@ -12,9 +12,9 @@ import Mybio from "./Pages/Mybio";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
-import Certificates from "./Pages/Certificates";
-import AD_Certs from "./components/Certificates_Content/AD_Certs";
-import DL_Certs from "./components/Certificates_Content/DL_Certs";
+import Specialization from "./Pages/Specialization";
+import AD_Certs from "./components/Specializations_Content/AD_Certs";
+import DL_Certs from "./components/Specializations_Content/DL_Certs";
 
 function App() {
 	return (
@@ -29,7 +29,7 @@ function App() {
 						<Route path='/Projects' component={Projects} />
 						<Route path='/Contact' component={Contact} />
 						<Route path='/Profile' component={Profile} />
-						<Route path='/Certificates' component={Certificates} />
+						<Route path='/Specialization' component={Specialization} />
 						<Route path='/AD_Certs' component={AD_Certs} />
 						<Route path='/DL_Certs' component={DL_Certs} />
 					</Switch>
