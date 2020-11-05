@@ -3,8 +3,6 @@ import React from "react";
 import Applied_Data_Science_Sp from "../components/Certificates_Content/Applied_Data_Science_Sp";
 import Deep_Learning_Sp from "../components/Certificates_Content/Deep_Learning_Sp";
 
-import AD_SP from "../components/Certificates_Content/images/Coursera_Specialization_Applied_Data_Science.png";
-
 function Certificates() {
 	return (
 		<>
