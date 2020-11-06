@@ -15,7 +15,7 @@ function Lbp() {
 				<div class='flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg'>
 					<div class='flex-1'>
 						<h2 class='text-gray-900 text-2xl font-bold leading-snug'>
-							{"Local binary patterns"}
+							{"Local Binary Patterns"}
 						</h2>
 						<p class=' text-gray-600 text-sm  tracking-tighter'>
 							{" Python - Computer Vision - Opencv"}
