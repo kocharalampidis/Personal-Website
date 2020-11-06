@@ -13,7 +13,7 @@ const Navbar = ({}) => {
 	const [isExpanded, toggleExpansion] = useState(false);
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
-		<nav className='border-b-8 border-white flex  items-center justify-between flex-wrap bg-gray-800 px-2 py-3 mb-3'>
+		<nav className='sticky top-0 border-b-8 border-white flex  items-center justify-between flex-wrap bg-gray-800 px-2 py-3 mb-3'>
 			<div className='container px-8 mx-auto flex flex-wrap items-center justify-between'>
 				<div className='flex items-center flex-shrink-0 text-white mr-6'>
 					<Link
