@@ -14,31 +14,33 @@ const Navbar = ({}) => {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
 		<nav className='border-b-8 border-white flex  items-center justify-between flex-wrap bg-gray-800 px-2 py-3 mb-3'>
-			<div className='flex items-center flex-shrink-0 text-white mr-6'>
-				<Link
-					to='/'
-					class='text-sm font-bold leading-relaxed  mr-4 py-2  text-white'>
-					LOGO PH
-				</Link>
-			</div>
-			<div className='block lg:hidden'>
-				<button
-					class=' hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out
+			<div className='container px-8 mx-auto flex flex-wrap items-center justify-between'>
+				<div className='flex items-center flex-shrink-0 text-white mr-6'>
+					<Link
+						to='/'
+						class='text-sm font-bold leading-relaxed  mr-4 py-2  text-white'>
+						LOGO PH
+					</Link>
+				</div>
+				<div className='block lg:hidden'>
+					<button
+						class=' hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out
 							text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
-					type='button'
-					onClick={() => setNavbarOpen(!navbarOpen)}>
-					{navbarOpen ? (
-						<FontAwesomeIcon icon={faWindowMinimize} />
-					) : (
-						<FontAwesomeIcon icon={faBars} />
-					)}
-				</button>
-			</div>
-			<div
-				className={`${
-					navbarOpen ? `block` : `hidden`
-				} w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
-				<Navigation />
+						type='button'
+						onClick={() => setNavbarOpen(!navbarOpen)}>
+						{navbarOpen ? (
+							<FontAwesomeIcon icon={faWindowMinimize} />
+						) : (
+							<FontAwesomeIcon icon={faBars} />
+						)}
+					</button>
+				</div>
+				<div
+					className={`${
+						navbarOpen ? `block` : `hidden`
+					} w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
+					<Navigation />
+				</div>
 			</div>
 		</nav>
 	);
