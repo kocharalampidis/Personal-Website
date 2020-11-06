@@ -24,7 +24,7 @@ function Personal_Website() {
 						href='https://github.com/kocharalampidis/LBP'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<span>Follow it on Github </span>
+						<span>{"Follow it on Github"} </span>
 						<FontAwesomeIcon icon={faExternalLinkAlt} />
 					</a>
 				</div>
