@@ -13,11 +13,11 @@ function Upcoming_Projects() {
 					<div class='w-full  lg:w-11/12 xl:w-full px-1 bg-white py-5 lg:px-2 lg:py-2 tracking-wide'>
 						<div class='flex flex-row lg:justify-start justify-center'>
 							<div class='text-gray-700 font-medium text-sm text-center lg:text-left px-2'>
-								{"Programming language: Python"}
+								{"Programming language: Python, Java"}
 							</div>
 						</div>
 						<div class='font-semibold text-gray-800 text-xl text-center lg:text-left px-2'>
-							{"Chatbot on Rasa"}
+							{"Chatbot"}
 						</div>
 
 						<div class='text-gray-600 font-medium text-sm pt-1 text-center lg:text-left px-2'>
