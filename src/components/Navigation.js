@@ -6,7 +6,7 @@ function Navigation() {
 		<div class='font-bold  lg:flex-grow'>
 			<Link
 				to='/'
-				class='  block mt-4 lg:inline-block lg:mt-0 px-3 py-2 rounded-md leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out mr-4'>
+				class=' block mt-4 lg:inline-block lg:mt-0 px-3 py-2 rounded-md leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out mr-4'>
 				Home
 			</Link>
 

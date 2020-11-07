@@ -6,7 +6,7 @@ var description =
 	"A strategy to perform maintenance based on the estimated health of the piece of equipment, by collecting data from specific sensors.\
 	 Through Predictive maintenance, a manufacturer can reduce the cost of maintenance activities, and avoid challenging damages\
 	  by being intelligently proactive and performing maintenance at the right time. In this project i performed Predictive Maintenanace\
-	  on an acquired dataset from  NASA";
+	  on an acquired dataset from  NASA.";
 
 function Predictive_Maintenanace() {
 	return (
