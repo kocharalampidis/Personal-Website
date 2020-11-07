@@ -22,13 +22,16 @@ function Lbp() {
 						</p>
 						<p class='mt-2 text-lg'>{description}</p>
 					</div>
+
 					<a
-						class='mt-6 inline-flex items-center px-6 py-3 text-white font-semibold bg-blue-700 rounded-md shadow-sm'
+						class='mt-6 w-full inline-flex items-center px-6 py-3 text-white font-semibold bg-blue-700 rounded-md shadow-sm'
 						href='https://github.com/kocharalampidis/LBP'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<span>{"Follow it on Github"} </span>
-						<FontAwesomeIcon icon={faExternalLinkAlt} />
+						<span class=''>{"Follow it on Github"} </span>
+						<span class='ml-auto'>
+							<FontAwesomeIcon icon={faExternalLinkAlt} />
+						</span>
 					</a>
 				</div>
 			</div>

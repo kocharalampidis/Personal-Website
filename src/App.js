@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 // components/css import
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./components/css/font.css";
 
 // pages imports
 import Welcome from "./Pages/Welcome";

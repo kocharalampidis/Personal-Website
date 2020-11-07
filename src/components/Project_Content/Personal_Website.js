@@ -25,7 +25,9 @@ function Personal_Website() {
 						target='_blank'
 						rel='noopener noreferrer'>
 						<span>{"Follow it on Github"} </span>
-						<FontAwesomeIcon icon={faExternalLinkAlt} />
+						<span class='ml-auto'>
+							<FontAwesomeIcon icon={faExternalLinkAlt} />
+						</span>
 					</a>
 				</div>
 			</div>
