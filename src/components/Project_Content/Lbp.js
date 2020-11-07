@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 var description =
-	"Local binary patterns (LBP) is a type of visual descriptor used for classification in computer vision.\
-					It has since been found to be a powerful feature for texture classification; \
-					it improves the detection performance considerably on some datasets.\
-					It is being implementd in this project to classify 5 different species consisting of legumes and nuts.";
+	"Local binary patterns (LBP) is a type of visual descriptor used for classification in computer vision,\
+					it has been found to be a powerful feature for texture classification. \
+					LBP, also, improves the detection performance considerably on some datasets and\
+					is being implemented in this project to classify 5 different species consisting of legumes and nuts.";
 
 function Lbp() {
 	return (

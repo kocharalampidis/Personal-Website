@@ -19,7 +19,7 @@ import DL_Certs from "./components/Specializations_Content/DL_Certs";
 
 function App() {
 	return (
-		<div class=' relative pb-10 min-h-screen bg-black  bg-opacity-50'>
+		<div class=' relative pb-10 min-h-screen bg-red-900 '>
 			<BrowserRouter>
 				<Navbar />
 				<div class='mt-10'>
