@@ -18,8 +18,8 @@ const Navbar = ({}) => {
 				<div className='flex items-center flex-shrink-0 text-white mr-6'>
 					<Link
 						to='/'
-						class='text-sm font-bold leading-relaxed  mr-4 py-2  text-white'>
-						LOGO PH
+						class='text-md font-bold leading-relaxed  mr-4 py-2  text-white'>
+						LP
 					</Link>
 				</div>
 				<div className='block lg:hidden'>
