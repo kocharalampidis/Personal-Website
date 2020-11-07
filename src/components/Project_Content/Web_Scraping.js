@@ -28,7 +28,9 @@ function Web_Scraping() {
 						rel='noopener noreferrer'
 						class='mt-6 inline-flex items-center px-6 py-3 text-white font-semibold bg-blue-700 rounded-md shadow-sm'>
 						<span>Follow it on Github </span>
-						<FontAwesomeIcon icon={faExternalLinkAlt} />
+						<span class='ml-auto'>
+							<FontAwesomeIcon icon={faExternalLinkAlt} />
+						</span>
 					</a>
 				</div>
 			</div>

@@ -25,7 +25,7 @@ const Navbar = ({}) => {
 				<div className='block lg:hidden'>
 					<button
 						class=' hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out
-							text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+							text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none'
 						type='button'
 						onClick={() => setNavbarOpen(!navbarOpen)}>
 						{navbarOpen ? (
