@@ -10,10 +10,10 @@ import { useState } from "react";
 // import { Link } from "gatsby";
 
 const Navbar = ({}) => {
-	const [isExpanded, toggleExpansion] = useState(false);
+	// const [isExpanded, toggleExpansion] = useState(false);
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
-		<nav className='sticky top-0 border-b-4 border-white flex  items-center justify-between flex-wrap bg-gray-800 px-2 py-3 mb-3'>
+		<nav className='  to-gray-900 top-0 border-b-2 border-white flex  items-center justify-between flex-wrap bg-gray-800  mb-3'>
 			<div className='container px-8 mx-auto flex flex-wrap items-center justify-between'>
 				<div className='flex items-center flex-shrink-0 text-white mr-6'>
 					<Link
