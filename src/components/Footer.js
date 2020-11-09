@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
 	return (
 		<footer class=' footer bg-gray-900  w-full bottom-0 absolute pt-1'>
-			<div class='container mx-auto px-6'>
-				<div class=' flex flex-col '>
+			<div class='container mx-auto  px-6'>
+				<div class='pl-1 flex flex-col '>
 					<div class='sm:w-2/3  py-1'>
 						<p class='text-sm text-white font-bold'>
 							{"© 2020 by Konstantinos Charalampidis"}
