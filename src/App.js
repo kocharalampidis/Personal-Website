@@ -19,11 +19,7 @@ import DL_Certs from "./components/Specializations_Content/DL_Certs";
 
 function App() {
 	return (
-
 		<div class=' relative pb-10 min-h-screen bg-black bg-gradient-to-r from-gray-700 to-gray-900'>
-
-
-
 			<BrowserRouter>
 				<Navbar />
 				<div class='mt-10'>
@@ -33,10 +29,10 @@ function App() {
 						<Route path='/Projects' component={Projects} />
 						<Route path='/Profile' component={Profile} />
 						<Route path='/Specializations' component={Specializations} />
+						<Route path='/AD_Certs' component={AD_Certs} />
+						<Route path='/DL_Certs' component={DL_Certs} />
 						<Route path='/Contact' component={null} />
 						<Route path='/Mybio' component={null} />
-						<Route path='/AD_Certs' component={null} />
-						<Route path='/DL_Certs' component={null} />
 					</Switch>
 				</div>
 

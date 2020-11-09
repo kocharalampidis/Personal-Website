@@ -16,11 +16,11 @@ const Navbar = ({}) => {
 		<nav className='  to-gray-900 top-0 border-b-2 border-white flex  items-center justify-between flex-wrap bg-gray-800  mb-3'>
 			<div className='container px-8 mx-auto flex flex-wrap items-center justify-between'>
 				<div className='flex items-center flex-shrink-0 text-white mr-6'>
-					<Link
+					{/* <Link
 						to='/'
 						class='text-md font-bold leading-relaxed  mr-4 py-2  text-white'>
 						LP
-					</Link>
+					</Link> */}
 				</div>
 				<div className='block lg:hidden'>
 					<button
