@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Welcome/static/css/main.7420f9b3.chunk.css",
-    "main.js": "/Welcome/static/js/main.897f2b2b.chunk.js",
-    "main.js.map": "/Welcome/static/js/main.897f2b2b.chunk.js.map",
+    "main.js": "/Welcome/static/js/main.9e8b5e52.chunk.js",
+    "main.js.map": "/Welcome/static/js/main.9e8b5e52.chunk.js.map",
     "runtime-main.js": "/Welcome/static/js/runtime-main.5044be10.js",
     "runtime-main.js.map": "/Welcome/static/js/runtime-main.5044be10.js.map",
-    "static/js/2.910a0425.chunk.js": "/Welcome/static/js/2.910a0425.chunk.js",
-    "static/js/2.910a0425.chunk.js.map": "/Welcome/static/js/2.910a0425.chunk.js.map",
+    "static/js/2.30e8f53c.chunk.js": "/Welcome/static/js/2.30e8f53c.chunk.js",
+    "static/js/2.30e8f53c.chunk.js.map": "/Welcome/static/js/2.30e8f53c.chunk.js.map",
     "index.html": "/Welcome/index.html",
     "static/css/main.7420f9b3.chunk.css.map": "/Welcome/static/css/main.7420f9b3.chunk.css.map",
-    "static/js/2.910a0425.chunk.js.LICENSE.txt": "/Welcome/static/js/2.910a0425.chunk.js.LICENSE.txt",
+    "static/js/2.30e8f53c.chunk.js.LICENSE.txt": "/Welcome/static/js/2.30e8f53c.chunk.js.LICENSE.txt",
     "static/media/Coursera_Specialization_Applied_Data_Science.7802867e.png": "/Welcome/static/media/Coursera_Specialization_Applied_Data_Science.7802867e.png",
     "static/media/Coursera_Specialization_DL-1.d6d294ef.png": "/Welcome/static/media/Coursera_Specialization_DL-1.d6d294ef.png",
     "static/media/ads1.1c8c1b14.png": "/Welcome/static/media/ads1.1c8c1b14.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5044be10.js",
-    "static/js/2.910a0425.chunk.js",
+    "static/js/2.30e8f53c.chunk.js",
     "static/css/main.7420f9b3.chunk.css",
-    "static/js/main.897f2b2b.chunk.js"
+    "static/js/main.9e8b5e52.chunk.js"
   ]
 }
