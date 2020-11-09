@@ -44,11 +44,11 @@ function Profile() {
 							</p>
 							<p class='pt-8 font-bold'>{"Gmail: kocharalampidis@gmail.com"}</p>
 
-							<div class='pt-12 pb-8'>
+							{/* <div class='pt-12 pb-8'>
 								<button class='bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full'>
 									{"Get In Touch"}
 								</button>
-							</div>
+							</div> */}
 
 							<div class='mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between'>
 								<a
