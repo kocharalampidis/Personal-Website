@@ -5,7 +5,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 function Upcoming_Projects() {
 	return (
 		<>
-			<body class=' h-screen overflow-hidden flex items-center justify-center border-dashed border-4 border-white border-opacity-50'>
+			<body class=' h-screen overflow-hidden flex items-center justify-center border-dashed border-4 border-white border-opacity-50 mx-2'>
 				<div class='lg:flex shadow  bg-green-600 '>
 					<div class='lg:w-2/12 py-4 block h-full'>
 						<div class=''></div>
