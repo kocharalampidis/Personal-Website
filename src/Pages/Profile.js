@@ -17,7 +17,7 @@ function Profile() {
 						class='w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white  mx-6 lg:mx-0'>
 						<div class='p-4 md:p-12 text-center lg:text-left'>
 							<div class='block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center'>
-								<img src='https://icons.iconarchive.com/icons/icojam/matreshka/512/red-matreshka-inside-icon-icon.png'></img>
+								<img src='https://png.pngtree.com/png-clipart/20190921/original/pngtree-no-photo-taking-photo-illustration-png-image_4698291.jpg'></img>
 							</div>
 
 							<h1 class='border-blue-700 border-b-2 text-3xl font-bold pt-8 lg:pt-0  lg:mx-0 w-3/3'>
@@ -83,9 +83,9 @@ function Profile() {
 						</div>
 					</div>
 
-					<div class='w-full lg:w-2/5'>
+					<div class='w-full lg:w-1/5'>
 						<img
-							src='https://icons.iconarchive.com/icons/icojam/matreshka/256/red-matreshka-inside-icon-icon.png'
+							src='https://png.pngtree.com/png-clipart/20190921/original/pngtree-no-photo-taking-photo-illustration-png-image_4698291.jpg'
 							class='rounded-none lg:rounded-lg shadow-2xl hidden lg:block'></img>
 					</div>
 				</div>
