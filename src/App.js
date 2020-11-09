@@ -25,15 +25,14 @@ function App() {
 				<div class='mt-10'>
 					<Switch>
 						<Redirect from='/' to='/Welcome' exact />
-
 						<Route path='/Welcome' component={Welcome} />
-						<Route path='/Mybio' component={Mybio} />
 						<Route path='/Projects' component={Projects} />
-						<Route path='/Contact' component={Contact} />
 						<Route path='/Profile' component={Profile} />
 						<Route path='/Specializations' component={Specializations} />
-						<Route path='/AD_Certs' component={AD_Certs} />
-						<Route path='/DL_Certs' component={DL_Certs} />
+						<Route path='/Contact' component={null} />
+						<Route path='/Mybio' component={null} />
+						<Route path='/AD_Certs' component={null} />
+						<Route path='/DL_Certs' component={null} />
 					</Switch>
 				</div>
 
