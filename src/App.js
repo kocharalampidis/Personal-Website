@@ -25,7 +25,7 @@ function App() {
 				<div class='mt-10'>
 					<Switch>
 						<Redirect from='/' to='/Welcome' exact />
-						<Redirect from='/my-app' to='/Welcome' exact />
+						<Redirect from='/Personal-Website' to='/Welcome' exact />
 						<Route path='/Welcome' component={Welcome} />
 						<Route path='/Projects' component={Projects} />
 						<Route path='/Profile' component={Profile} />
